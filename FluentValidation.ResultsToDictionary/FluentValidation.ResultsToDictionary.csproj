@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net6.0</TargetFramework>
+        <PackageVersion>0.1.0</PackageVersion>
+        <Title>ResultsToDictionary</Title>
+        <Description>Fluent Validation ValidationResults as Dictionary</Description>
+        <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.1.0" />
+    </ItemGroup>
+
+</Project>
